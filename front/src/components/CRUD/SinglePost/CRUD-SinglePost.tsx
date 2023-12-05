@@ -22,6 +22,7 @@ export default function CRUDSinglePost() {
   };
 
   const onClick = async () => {
+    setLoading(true);
     const response = await http(
       baseUrl + subUrl + postId,
       {
@@ -34,6 +35,7 @@ export default function CRUDSinglePost() {
       setData((prev) => ({ ...prev, content: inputState }));
       setState("read");
     }
+    setLoading(false);
   };
 
   const onEditClick = (e: FormEvent) => {
@@ -54,6 +56,7 @@ export default function CRUDSinglePost() {
   };
 
   useEffect(() => {
+    setLoading(true);
     if (state === "read") {
       window.setTimeout(async () => {
         try {
@@ -71,6 +74,7 @@ export default function CRUDSinglePost() {
         }
       }, 1000);
     }
+    setLoading(false);
   }, []);
 
   return (
