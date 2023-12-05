@@ -1,0 +1,19 @@
+.CRUD-Header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid #646363;
+  border-radius: 3px;
+  background-color: #fff;
+}
+
+.Form-Button {
+  font-size: 10px;
+  padding: 3px 5px;
+  background-color: #326deb;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  text-decoration: none;
+}

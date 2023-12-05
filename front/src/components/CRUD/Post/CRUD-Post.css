@@ -1,0 +1,40 @@
+.CRUD-Post {
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.Post-Header {
+  display: flex;
+  column-gap: 3px;
+}
+
+.Header-Image {
+  width: 12px;
+  border-radius: 50%;
+}
+
+.Header-AuthorName {
+  font-size: 7px;
+  color: #03306b;
+}
+
+.Header-AuthorAdditionInfo {
+  margin-top: -8px;
+}
+
+.AuthorAdditionInfo-Status {
+  font-size: 6px;
+  margin-right: 3px;
+}
+
+.AuthorAdditionInfo-Time {
+  font-size: 6px;
+}
+
+.PostChange-Input {
+  border: none;
+  outline: none;
+  border-radius: 3px;
+}

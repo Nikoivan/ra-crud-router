@@ -1,0 +1,61 @@
+.Post-Footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.FooterActions-EditBtn,
+.FooterActions-RemoveBtn {
+  color: #fff;
+  background-color: rgb(41, 93, 133);
+  font-size: 10px;
+  border: none;
+  border-radius: 3px;
+}
+
+.FooterActions-RemoveBtn {
+  background-color: red;
+  margin-left: 10px;
+}
+
+.Header-Top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Header-CloseBtn {
+  color: rgb(76, 75, 75);
+}
+
+.Header-CloseBtn:hover {
+  cursor: pointer;
+}
+
+.Header-Mid {
+  display: flex;
+  column-gap: 20px;
+}
+
+.Header-Image {
+  width: 25px;
+}
+
+.PostChange-Main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  max-width: 250px;
+}
+
+.PostChange-Btn {
+  box-sizing: border-box;
+  padding: 2px 10px;
+  font-size: 11px;
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 3px;
+}
+
+.PostChange-Footer {
+  display: flex;
+  justify-content: flex-end;
+}

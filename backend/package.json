@@ -1,0 +1,20 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "prestart": "npm install",
+    "lint": "eslint . --fix",
+    "start": "nodemon server.js",
+    "watch": "nodemon -w server.js"
+  },
+  "author": "NikoIvan",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
